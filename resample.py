@@ -70,4 +70,5 @@ ax2.set(ylabel='Cumulative Volume, MBbl', xlabel='Time, Days')
 ax2.grid()
 ax2.legend()
 
-plt.show()
+# plt.show()
+plt.savefig('resample.png', dpi=100)
