@@ -38,15 +38,6 @@ resample_q_2 = bspline_q_1(resample_t_2)
 resample_N_2 = bspline_N_1(resample_t_2)
 
 
-# thm = dca.THM(qi=750, Di=.8, bi=2, bf=.5, telf=28)
-# q_thm = thm.rate(t)
-# N_thm = thm.cum(t)
-# D_thm = thm.D(t)
-# b_thm = thm.b(t)
-# beta_thm = thm.beta(t)
-# N_thm *= data_N[-1] / thm.cum(data_t[-1])
-
-
 # Rate vs Time
 fig = plt.figure(figsize=(15, 7.5))
 ax1 = fig.add_subplot(121)
